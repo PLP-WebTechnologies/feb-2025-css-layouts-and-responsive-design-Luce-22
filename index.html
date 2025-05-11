@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 4 Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="main-nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#css-info">CSS Info</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title" id="heading">THIS IS MY WEEK 4 ASSIGNMENT</h1>
+            <h2 class="hero-subtitle subheading">Introduction to CSS</h2>
+            <p class="hero-text">
+                This assignment explores HTML and CSS, with specific focus on CSS styling and layout techniques.
+            </p>
+            <a href="#about" class="hero-button">Learn More</a>
+        </div>
+    </header>
+
+   <main>
+        <article class="about-section assignment-section" id="about">
+            <div class="text-content about-text-content">
+                <h3 class="section-title about-title">About This Assignment</h3>
+                <p class="assignment-desc about-description">
+                    This assignment involves the implementation of Flexbox for layout design, making the webpage responsive using media queries, and ensuring proper alignment and spacing. The goal was to create a webpage that adapts to different screen sizes and provides a consistent and visually appealing layout.
+                </p>
+                <p class="additional-details about-details">
+                    This project demonstrates my ability to structure a webpage using HTML and to control its visual appearance and layout using CSS.  The use of CSS is essential for modern web development, enabling the creation of visually appealing, user-friendly, and responsive websites. I have used Flexbox to manage the layout of elements within sections.
+                </p>
+            </div>
+            <div class="image-container about-image-container">
+                <img src="https://images.pexels.com/photos/1933900/pexels-photo-1933900.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Web Development Concept" class="image about-image">
+            </div>
+        </article>
+
+        <article class="services-section additional-info" id="css-info">
+            <div class="services-content">
+                <h3 class="section-title services-title">The Importance of CSS</h3>
+                <p class="services-intro">
+                    CSS (Cascading Style Sheets) is essential in web development as it controls the presentation of web pages. It helps in improving readability, layout, and visual structure, making websites more user-friendly and attractive. It governs the presentation of HTML elements, allowing developers to control the layout, colors, fonts, and overall visual appearance of web pages.
+                </p>
+                <p class="services-explanation">Here are some key benefits of using CSS:</p>
+                <ul class="services-list">
+                    <li class="service-item"><strong>Separation of Concerns:</strong> CSS separates style from content (HTML), improving code organization and maintainability.</li>
+                    <li class="service-item"><strong>Consistency:</strong> Styles can be applied across multiple pages, ensuring a uniform look and feel throughout a website.</li>
+                    <li class="service-item"><strong>Responsiveness:</strong> CSS enables websites to adapt to various screen sizes and devices, providing an optimal user experience.</li>
+                    <li class="service-item"><strong>Efficiency:</strong> Reusable CSS rules reduce code duplication, resulting in faster page load times and improved performance.</li>
+                    <li class="service-item"><strong>Visual Appeal:</strong> CSS offers a wide range of styling options, empowering developers to create visually engaging and modern user interfaces.</li>
+                </ul>
+            </div>
+        </article>
+
+        <article class="layout-section assignment-section" id="layout">
+            <div class="text-content layout-text-content">
+                <h3 class="section-title layout-title">CSS Layouts and Responsive Design</h3>
+                <p class="layout-intro">
+                    This section delves into CSS layout techniques and responsive design principles, which are crucial for creating modern websites.
+                </p>
+                <p class="layout-explanation">Key concepts include:</p>
+                <ul class="layout-list">
+                    <li class="layout-item"><strong>CSS Box Model:</strong> Understanding how margins, padding, and borders affect element dimensions.</li>
+                    <li class="layout-item"><strong>Flexbox:</strong> A powerful layout model for creating flexible and dynamic layouts, as used in this assignment.</li>
+                    <li class="layout-item"><strong>Grid:</strong> A two-dimensional layout system for creating complex and structured layouts.</li>
+                    <li class="layout-item"><strong>Media Queries:</strong>  Used to apply different styles based on device characteristics, enabling responsive design.</li>
+                    <li class="layout-item"><strong>Responsive Units:</strong> Using relative units like em, rem, and percentages to create layouts that adapt to different screen sizes.</li>
+                </ul>
+                <p class="layout-conclusion">
+                    This assignment effectively the use of Flexbox and media queries for creating a responsive layout.
+                </p>
+            </div>
+        </article>
+
+        <article class="contact-section assignment-section" id="contact">
+            <div class="text-content contact-text-content">
+                <h3 class="section-title contact-title">Leave a message</h3>
+                <p class="contact-intro">
+                    Feel free to leave a message in case of any questions, feedback, or inquiries.
+                </p>
+                <ul class="contact-details">
+                    <li class="contact-email">Email: kihikalucy059@gmail.com</li>
+                    <li class="contact-phone">Phone: +254 718537210</li>
+                    <li class="contact-address">Address: Nairobi, KENYA</li>
+                </ul>
+            </div>
+            <div class="form-container contact-form-container">
+                <form action="#" method="POST" class="contact-form">
+                    <div class="form-group contact-form-group">
+                        <label for="name" class="contact-label">Name:</label>
+                        <input type="text" id="name" name="name" class="contact-input" required>
+                    </div>
+                    <div class="form-group contact-form-group">
+                        <label for="email" class="contact-label">Email:</label>
+                        <input type="email" id="email" name="email" class="contact-input" required>
+                    </div>
+                    <div class="form-group contact-form-group">
+                        <label for="message" class="contact-label">Message:</label>
+                        <textarea id="message" name="message" rows="4" class="contact-textarea" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button contact-submit-button">Send Message</button>
+                </form>
+            </div>
+        </article>
+    </main>
+
+    <footer class="main-footer">
+        <p class="copyright highlight">&copy; 2025. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
